@@ -16,7 +16,7 @@ while True:
             else:
                 print("---> NO")
         else:
-            print("---> That's not a 4 digit number..")
+            print("---> Can't you count, that's not a 4 digit number..")
         
     except ValueError:
-        print("---> That's not a number..")
+        print("---> You idiot, that's not a number..")
