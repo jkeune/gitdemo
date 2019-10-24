@@ -8,6 +8,7 @@
 read -p "What's your name? " name
 figlet "Hello honey, how you're doing (Tribiani, 1990) ?!"
 
+
 read -p "Do you like git already? " gitlike
 if [[ "$gitlike" =~ ^(yes|y|YES|Yes|Y)$ ]]; then
     echo "that is so great! i think it can also enhance your science!"
