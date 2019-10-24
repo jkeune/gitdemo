@@ -8,3 +8,5 @@ echo "USAGE: ./convert2sha1.sh <text>"
 input=$1
 echo "Encrypting $input to SHA-1..."
 echo -n $input | sha1sum | awk '{print $1}'
+
+echo "hallo from tehg other side..."
