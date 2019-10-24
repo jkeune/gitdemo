@@ -6,7 +6,7 @@
 # JKe 10/2019
 
 read -p "What's your name? " name
-figlet "Hello $name !"
+figlet "Hello there, $name !"
 
 read -p "Do you like git already? " gitlike
 if [[ "$gitlike" =~ ^(yes|y|YES|Yes|Y)$ ]]; then
