@@ -23,7 +23,7 @@ if [[ "$chatmore" =~ ^(no|n|NO|No|N)$ ]]; then
 else
     echo "Great! let's talk..." 
     sleep 2s
-    read -p "Would you like to hear more about git? " moregit
+    read -p "would you like to hear more about git? " moregit
     if [[ "$moregit" =~ ^(yes|y|YES|Yes|Y)$ ]]; then
         echo "I recommend to check out these pages to start with!"
         echo "https://git-scm.com/book/en/v2/"
