@@ -3,7 +3,7 @@
 
 while True:
 
-    number = input("An oracle will provide a YES or NO answer to any question if you type a 4 digit (unique) integer:\n")
+    number = input("An oracle will provide a YES or NO answer to any question if you type a 4 digit (unique!) integer:\n")
     
     try: 
         int(number)
