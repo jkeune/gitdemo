@@ -1,8 +1,20 @@
-# gitdemo
+# gitdemo: a short introduction to git and github
 
-This is the README for the gitdemo repository. 
+This repository contains a short introduction and hands-on for git and github. It was held in October 2019 at the Hydro-Climate Extremes Lab at Ghent University. 
 
-## usage
+### Content
+The repository contains: 
+- `gitintro_lhwm.pdf`: presentation
+- `fancylog.txt`: a fancy git log style 
+- `conversation.sh` (sample script)
+- `convert2sha1.sh` (sample script)
+- `oracle.py` (sample script)
+- `README.md` (this README)
+
+The google presentation of the pdf-version is available at:
+https://docs.google.com/presentation/d/1dWV4lVvhwhjb5ZBcQsRaTt_j5kFX9qwQtK1464QPnLE/edit?usp=sharing
+
+### Usage
 There are a few sample scripts in here. Just play around with them!
 
 Use
@@ -21,7 +33,7 @@ Or play around with the oracle...
 python oracle.py
 ```
 
-## TO DO's
+### Additional tasks
 1. Checkout the issues, pick one, assign yourself and start coding!
 2. If you're done, push your changes to this github repository and make a pull request into another branch. 
 3. Assign someone else to review your changes... and see your branch being merged into the other branch!
